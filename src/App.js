@@ -1,14 +1,14 @@
 import './App.css';
 
-function App(props) {
+function App({data,data2}) {
 
   return <>   
-  <h1>{props.data2[2].name} Library</h1>
+  <h1>{data2[2].name} Liberary</h1>
   <div className='flex'>
-    <img src={props.data[0].img} alt="" />
-    <img src={props.data[1].img} alt="" />
-    <img src={props.data[2].img} alt="" />
-    <img src={props.data[3].img} alt="" />
+    <img src={data[0].img} alt="" />
+    <img src={data[1].img} alt="" />
+    <img src={data[2].img} alt="" />
+    <img src={data[3].img} alt="" />
   </div>
   </>
 }
